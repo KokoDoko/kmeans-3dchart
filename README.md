@@ -1,6 +1,8 @@
 # 3D KMeans visualisation with Javascript
 
-KMeans is an algorithm that finds clusters in groups of data. These clusters can also later be used for training a model with classification. This experiment creates a 3D chart to visualise clusters in a nice way. Use the mouse to rotate the chart. 
+KMeans is an algorithm that finds clusters in groups of data. This can be used to label unclassified data - unsupervised learning. These labels can later be used for supervised learning. 
+
+This experiment creates a 3D chart to visualise clusters in a nice way. Use the mouse to rotate the chart. 
 
 ![chart](./chartanimation.gif)
 
@@ -51,7 +53,7 @@ This experiment uses native modules.
 Kmeans and the 3DChart can be used by importing into `app.js`:
 ```javascript
 import { Chart3D } from "./native_modules/Chart3d.js"
-import { Kmeans } from "./native_modules/Kmeans.js.js"
+import { Kmeans } from "./native_modules/Kmeans.js"
 ```
 
 ### TODO
