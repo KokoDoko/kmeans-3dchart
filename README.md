@@ -10,7 +10,7 @@ This experiment creates a 3D chart to visualise clusters in a nice way. Use the 
 ```javascript
 let chart = new Chart3D()
 ```
-The [ThreeJS](https://threejs.org/) chart can draw points in 3 dimensions. A single point looks like: `[30,5,19]`. 
+The [ThreeJS](https://threejs.org/) chart can draw points in 3 dimensions. A single point looks like: `[30,5,19]`. The chart expects an array of points.
 
 ## Draw an array of points
 
@@ -67,5 +67,6 @@ import { Kmeans } from "./native_modules/Kmeans.js"
 
 - [Kmeans explanation](https://towardsdatascience.com/understanding-k-means-clustering-in-machine-learning-6a6e67336aa1)
 - [Kmeans JS algorithm](https://github.com/stevemacn/kmeans)
-- [ThreeJS 3D basics](https://threejs.org/docs/#api/en/geometries/PlaneGeometry)
+- [3D Javascript with ThreeJS](https://threejs.org)
+- [ThreeJS documentation](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
 
