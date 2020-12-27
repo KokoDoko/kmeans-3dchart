@@ -10,7 +10,7 @@ This experiment creates a 3D chart to visualise clusters in a nice way. Use the 
 ```javascript
 let chart = new Chart3D()
 ```
-The [ThreeJS](https://threejs.org/) chart can draw points in 3 dimensions. A single point looks like: `[30,5,19]`. The chart expects an array of points.
+The [ThreeJS](https://threejs.org/) chart can draw points in 3 dimensions. A single point looks like: `[30,5,19]`. The chart expects an array of points: `[[0,1,0],[1,1,2],[2,3,1]]`
 
 ## Draw an array of points
 
